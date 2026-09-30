@@ -1,8 +1,5 @@
 # Especificação Léxica — Checkpoint 1
 
-> RASCUNHO: revisem cada decisão e troquem o que o grupo quiser diferente.
-> O scanner deve implementar exatamente o que está escrito aqui.
-
 ## 1. Alfabeto de entrada
 
 - Letras ASCII: `a-z`, `A-Z`
