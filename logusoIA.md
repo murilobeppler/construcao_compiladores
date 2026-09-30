@@ -1,0 +1,1 @@
+Usamos IA para tirar dúvidas e fazer correções de código em Java e para discutir melhores abordagens para o que estávamos querendo para nossa linguagem, já prevendo também as próximas etapas de construção; tirando qualquer débito técnico e testes não pensados por nós previamente.
