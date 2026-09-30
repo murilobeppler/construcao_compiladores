@@ -1,0 +1,15 @@
+// programa de exemplo sem erros
+int contador = 0;
+double media = 3.14;
+string nome = "ola mundo";
+char letra = 'a';
+
+/* laco simples
+   com comentario de bloco */
+while (contador < 10 && !(media >= 5.0)) {
+    contador = contador + 1;
+}
+
+int soma(int a, int b) {
+    return a + b;
+}

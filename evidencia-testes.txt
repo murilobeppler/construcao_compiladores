@@ -1,0 +1,31 @@
+=== Testes do scanner ===
+[OK]     identificador: total x1 _aux contaItens
+[OK]     palavras reservadas: if while int return true
+[OK]     maximal munch: 'iff' e 'ifx' são identificadores
+[OK]     case-sensitive: 'While' e 'INT' são identificadores
+[OK]     string simples
+[OK]     string com escape \"
+[OK]     string vazia
+[OK]     operadores de 1 e 2 caracteres
+[OK]     maximal munch: 'a<=b' e 'a===b'
+[OK]     literais numéricos: 10 3.14 0
+[OK]     literais char: 'a' '\n'
+[OK]     delimitadores
+[OK]     comentário de linha e de bloco são descartados
+[OK]     '/' sozinho é divisão
+[OK]     erro: string não fechada até EOF (nenhum token, 1 erro)
+[OK]     erro: string não fechada até fim de linha (erro em 1:5)
+[OK]     recuperação: tokenização continua na linha seguinte
+[OK]     recuperação: 'y' está na linha 2, coluna 1
+[OK]     erro: caractere fora do alfabeto '@' (erro em 1:3)
+[OK]     recuperação: 'a' e 'b' continuam sendo reconhecidos
+[OK]     erro: comentário de bloco não fechado até EOF (erro em 1:3)
+[OK]     comentário não fechado: token anterior preservado
+[OK]     erro: '&' e '|' isolados (2 erros, tokens seguem)
+[OK]     erro: escape inválido em string (string descartada, 'x' segue)
+[OK]     erro: char vazio e char com mais de um caractere
+[OK]     '3.' vira INT_LIT:3 e o '.' isolado é erro em 1:2
+[OK]     trecho realista: sequência completa de tokens
+[OK]     trecho realista: nenhum erro léxico
+[OK]     trecho realista: 'while' na posição 3:21 (depois de comentários de linha e de bloco)
+=== Resumo: 29 ok, 0 falhas ===
