@@ -1,0 +1,32 @@
+// programa de exemplo sem erros
+int contador = 0;
+double media = 3.14;
+string nome = "ola mundo";
+char letra = 'a';
+
+int fat(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * fat(n - 1);
+}
+
+void conta(int limite) {
+    int i = 0;
+    while (i < limite && !(media >= 5.0)) {
+        i = i + 1;
+        if (i % 2 == 0) {
+            escreve("par", i);
+        } else if (i > 7) {
+            escreve("grande");
+        } else {
+            escreve("impar");
+        }
+    }
+    return;
+}
+
+void principal() {
+    int r = fat(5);
+    conta(r);
+}
