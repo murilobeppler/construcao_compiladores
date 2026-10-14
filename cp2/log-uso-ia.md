@@ -1,7 +1,5 @@
 # Log de uso de IA — Checkpoint 2
 
-> Registro do que foi pedido à IA, o que ela produziu e o que o grupo fez com isso.
-> Preencham a coluna "Como o grupo usou" com a verdade.
 
 | # | Data | Ferramenta | O que foi pedido | O que a IA fez |
 | --- | --- | --- | --- | --- | --- |
