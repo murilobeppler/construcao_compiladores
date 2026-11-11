@@ -1,0 +1,26 @@
+=== Testes do parser ===
+[OK]     válido 1: declarações globais dos 5 tipos básicos (com e sem inicialização)
+[OK]     válido 2: if / else if / else, while, return com e sem valor
+[OK]     válido 3: funções, parâmetros, chamadas (comando e expressão), recursão, bloco aninhado
+[OK]     válido 4: programa vazio é aceito (DeclsTop → ε com lookahead EOF)
+[OK]     válido 5: só comentários também é aceito
+[OK]     inválido 1: falta ';' depois da expressão (erro em 2:1, 1 erro)
+[OK]     inválido 2: falta ')' no if (primeiro erro em 1:22)
+[OK]     inválido 3: expressão ausente (erro em 1:9, 1 erro)
+[OK]     inválido 4: 'else' sem 'if' (erro em 1:12, 1 erro, o bloco seguinte é reaproveitado)
+[OK]     inválido 5: comando fora de função (erro em 1:1, 1 erro)
+[OK]     inválido 6: bloco não fechado até EOF (erro em 1:22, 1 erro)
+[OK]     inválido 7: parâmetro faltando depois da vírgula (erro em 1:14, 1 erro)
+[OK]     erro léxico também rejeita: '@' (0 erros sintáticos, 1 léxico)
+           traço dos erros (uma única rodada de análise):
+           > Erro sintático [linha 1, coluna 9]: esperado expressão, mas encontrado ';'
+           > Erro sintático [linha 3, coluna 12]: esperado expressão, mas encontrado ';'
+           > Erro sintático [linha 4, coluna 16]: esperado expressão, mas encontrado ')'
+           > Erro sintático [linha 8, coluna 1]: esperado operador ou fim da expressão (')', ',' ou ';'), mas encontrado '}'
+           > Erro sintático [linha 9, coluna 14]: esperado tipo (int, double, bool, char ou string), mas encontrado ')'
+[OK]     múltiplos erros: 5 erros detectados, cada um na posição certa, sem parar no primeiro
+[OK]     recuperação: declarações válidas depois dos erros não geram erro novo
+[OK]     múltiplos erros no nível superior: 2 erros (1:1 e 3:1), declarações válidas entre eles preservadas
+[OK]     entradas patológicas (25): todas terminam em < 2s sem exceção
+[OK]     fuzz: 5000 sequências aleatórias de tokens analisadas sem travar nem lançar exceção
+=== Resumo: 18 ok, 0 falhas ===

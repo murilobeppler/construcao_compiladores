@@ -1,0 +1,12 @@
+void contagem(int n) {
+    if (n <= 0) {
+        return;
+    }
+    escreve(n);
+    contagem(n - 1);
+}
+
+void principal() {
+    contagem(5);
+}
+

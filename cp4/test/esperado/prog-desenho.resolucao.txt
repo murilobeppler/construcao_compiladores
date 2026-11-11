@@ -1,0 +1,7 @@
+5:17 p -> p@2
+5:21 x -> x@3
+6:9 escreve -> escreve@pre
+6:17 y -> y@5
+8:5 escreve -> escreve@pre
+8:13 x -> x@3
+9:5 y -> ?

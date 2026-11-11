@@ -1,0 +1,6 @@
+void principal() {
+    x = 10;
+    int y = z + 1;
+    calcula(y);
+}
+

@@ -1,0 +1,12 @@
+int val = 50;
+
+void teste() {
+    int val = 100;
+    escreve(val);
+    {
+        int val = 200;
+        escreve(val);
+    }
+    escreve(val);
+}
+

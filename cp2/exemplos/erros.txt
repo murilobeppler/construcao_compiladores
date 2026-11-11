@@ -1,0 +1,10 @@
+int x = ;
+void f(int a) {
+    y = 3 +;
+    while (a < ) {
+        a = a - 1;
+    }
+    return a
+}
+int g(int a, ) { return 1; }
+int ok = 1;

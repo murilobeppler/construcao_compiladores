@@ -1,0 +1,8 @@
+void teste() {
+    {
+        int interno = 99;
+        escreve(interno);
+    }
+    interno = 100;
+}
+
