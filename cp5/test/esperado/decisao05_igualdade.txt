@@ -1,0 +1,3 @@
+linha 5: operador '==' não se aplica a int e char
+linha 6: operador '!=' não se aplica a bool e int
+linha 7: operador '==' não se aplica a double e string

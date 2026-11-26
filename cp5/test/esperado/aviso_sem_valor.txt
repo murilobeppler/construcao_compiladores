@@ -1,0 +1,3 @@
+linha 7: aviso: 'a' pode ser usada sem valor
+linha 17: aviso: 'c' pode ser usada sem valor
+linha 22: aviso: 'd' pode ser usada sem valor

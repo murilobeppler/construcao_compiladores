@@ -1,0 +1,2 @@
+linha 3: inicialização de 'q': esperado int, veio bool
+linha 4: argumento 1 de 'ehImpar': esperado int, veio bool

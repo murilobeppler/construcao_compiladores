@@ -1,0 +1,4 @@
+linha 8: 'soma' espera 2 argumento(s), recebeu 3
+linha 9: 'soma' espera 2 argumento(s), recebeu 1
+linha 10: argumento 1 de 'mostra': esperado string, veio int
+linha 11: argumento 2 de 'soma': esperado int, veio double

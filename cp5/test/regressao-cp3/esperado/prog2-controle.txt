@@ -1,0 +1,57 @@
+Program
+  FuncDecl(int maior)
+    Param(int a)
+    Param(int b)
+    Block
+      If
+        Bin(>)
+          Id(a)
+          Id(b)
+        Block
+          Return
+            Id(a)
+        Block
+          Return
+            Id(b)
+  ProcDecl(conta)
+    Param(int n)
+    Block
+      VarDecl(int i)
+        Int(0)
+      While
+        Bin(&&)
+          Bin(<)
+            Id(i)
+            Id(n)
+          Un(!)
+            Bin(==)
+              Id(i)
+              Int(5)
+        Block
+          Assign(i)
+            Bin(+)
+              Id(i)
+              Int(1)
+          If
+            Bin(==)
+              Bin(%)
+                Id(i)
+                Int(2)
+              Int(0)
+            Block
+              CallStmt
+                Call(escreve)
+                  Str("par")
+            If
+              Bin(>)
+                Id(i)
+                Int(7)
+              Block
+                CallStmt
+                  Call(escreve)
+                    Str("grande")
+              Block
+                CallStmt
+                  Call(escreve)
+                    Str("impar")
+      Return

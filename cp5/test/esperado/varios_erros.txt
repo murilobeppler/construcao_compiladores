@@ -1,0 +1,6 @@
+linha 1: inicialização de 'g': esperado int, veio double
+linha 3: operador '+' não se aplica a int e bool
+linha 4: inicialização de 'b': esperado bool, veio int
+linha 5: 'y' não declarado
+linha 6: atribuição a 'a': esperado int, veio string
+linha 9: operador '+' não se aplica a int e char

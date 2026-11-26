@@ -1,0 +1,8 @@
+int cinco() {
+    return 5;
+}
+void principal() {
+    int x = cinco;
+    int y = cinco();
+    cinco = 3;
+}

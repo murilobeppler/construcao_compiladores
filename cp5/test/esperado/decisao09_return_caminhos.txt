@@ -1,0 +1,2 @@
+linha 10: função 'semElse' pode terminar sem 'return'
+linha 15: função 'comWhile' pode terminar sem 'return'

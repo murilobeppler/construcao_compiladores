@@ -1,0 +1,17 @@
+void principal() {
+    bool p = ehPar(4);
+    int q = ehPar(5);
+    bool r = ehImpar(true);
+}
+bool ehPar(int n) {
+    if (n == 0) {
+        return true;
+    }
+    return ehImpar(n - 1);
+}
+bool ehImpar(int n) {
+    if (n == 0) {
+        return false;
+    }
+    return ehPar(n - 1);
+}

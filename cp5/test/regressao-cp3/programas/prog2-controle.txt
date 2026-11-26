@@ -1,0 +1,14 @@
+// prog2: if / else if / else, while, return com e sem valor
+int maior(int a, int b) {
+    if (a > b) { return a; } else { return b; }
+}
+void conta(int n) {
+    int i = 0;
+    while (i < n && !(i == 5)) {
+        i = i + 1;
+        if (i % 2 == 0) { escreve("par"); }
+        else if (i > 7) { escreve("grande"); }
+        else { escreve("impar"); }
+    }
+    return;
+}

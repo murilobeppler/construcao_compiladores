@@ -1,0 +1,9 @@
+void principal() {
+    bool b = true;
+    int x = b + 1;
+    if (x) {
+    }
+    while (!x) {
+    }
+    bool ok = b && x > 0;
+}

@@ -1,0 +1,40 @@
+// válido: os cinco tipos e todos os comandos (if/else if/else, while, bloco, chamada, return)
+int total = 0;
+double taxa = 1.5;
+bool ativo = true;
+char letra = 'z';
+string nome = "cp5";
+
+int fat(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * fat(n - 1);
+}
+
+double media(double a, double b) {
+    return (a + b) / 2;
+}
+
+void mostra(string rotulo, double valor) {
+    escreve(rotulo, valor);
+    return;
+}
+
+void principal() {
+    int i = 0;
+    double soma = 0;
+    while (i < 5 && ativo) {
+        soma = soma + i * taxa;
+        i = i + 1;
+    }
+    if (letra >= 'a' && !(soma == 0)) {
+        mostra(nome, media(soma, fat(3)));
+    } else if (i % 2 != 0) {
+        total = -i;
+    } else {
+        escreve("nada");
+    }
+    fat(4);
+    { string s = nome; escreve(s, letra == 'z', -taxa); }
+}

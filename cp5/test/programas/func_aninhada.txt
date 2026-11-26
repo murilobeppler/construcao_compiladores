@@ -1,0 +1,18 @@
+double limite = 10.5;
+int contador = 0;
+void incrementa(int passo) {
+    int base = 1;
+    {
+        int extra = base + passo;
+        {
+            contador = contador + extra;
+            bool passou = contador > limite;
+            escreve(passou);
+        }
+    }
+}
+void principal() {
+    int limite = 3;
+    limite = 2.5;
+    incrementa(limite);
+}

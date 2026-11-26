@@ -1,0 +1,5 @@
+void principal() {
+    int grande = 40000;
+    int ok = 32767;
+    double d = 99999.5;
+}

@@ -1,0 +1,23 @@
+void principal() {
+    int a;
+    int b;
+    int c;
+    int d;
+    bool cond = true;
+    escreve(a);
+    if (cond) {
+        b = 1;
+    } else {
+        b = 2;
+    }
+    escreve(b);
+    if (cond) {
+        c = 1;
+    }
+    escreve(c);
+    while (cond) {
+        d = 1;
+        cond = false;
+    }
+    escreve(d);
+}

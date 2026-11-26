@@ -1,0 +1,4 @@
+linha 2: 'return' de 'dobro': esperado int, veio bool
+linha 8: 'return' sem valor na função 'nada', que devolve int
+linha 11: 'return' com valor no procedimento 'proc'
+linha 14: 'return' de 'conta': esperado int, veio double

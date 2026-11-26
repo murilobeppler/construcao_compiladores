@@ -1,0 +1,8 @@
+void avisa() {
+    escreve("oi");
+}
+void principal() {
+    int x = avisa();
+    bool b = escreve("a") == 1;
+    avisa();
+}

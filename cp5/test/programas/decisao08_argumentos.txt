@@ -1,0 +1,12 @@
+double media(double a, double b) {
+    return (a + b) / 2;
+}
+int quadrado(int n) {
+    return n * n;
+}
+void principal() {
+    double m = media(1, 2);
+    int q = quadrado(2.0);
+    char c = 'x';
+    int r = quadrado(c);
+}

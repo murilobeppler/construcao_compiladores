@@ -1,0 +1,4 @@
+linha 2: operador '+' não se aplica a int e bool
+linha 3: operador '&&' não se aplica a int e bool
+linha 4: operador '-' não se aplica a string
+linha 5: operador '%' não se aplica a int e double

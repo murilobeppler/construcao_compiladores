@@ -1,0 +1,9 @@
+int incrementa(int x) {
+    escreve(x + 1);
+    return x + 1;
+}
+void principal() {
+    incrementa(5);
+    int y = incrementa(6);
+    escreve(y);
+}

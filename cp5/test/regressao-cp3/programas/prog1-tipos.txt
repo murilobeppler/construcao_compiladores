@@ -1,0 +1,9 @@
+// prog1: declarações globais dos cinco tipos básicos, com e sem inicialização
+int a = 1;
+double b = 2.5;
+bool ok = true;
+char c = 'x';
+string s = "texto";
+int semInicial;
+char nl = '\n';
+string q = "diz \"oi\"";

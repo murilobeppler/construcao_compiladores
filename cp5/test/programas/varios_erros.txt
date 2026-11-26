@@ -1,0 +1,11 @@
+int g = 2.5;
+void principal() {
+    int a = (1 + true) * 2;
+    bool b = a;
+    if (y + 1 > 0) {
+        a = "x";
+    }
+    while (b) {
+        a = a + 'c';
+    }
+}

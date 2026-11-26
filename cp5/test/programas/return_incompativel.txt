@@ -1,0 +1,15 @@
+int dobro(int x) {
+    return x > 0;
+}
+double metade(int x) {
+    return x / 2;
+}
+int nada() {
+    return;
+}
+void proc() {
+    return 1;
+}
+int conta(double d) {
+    return d;
+}

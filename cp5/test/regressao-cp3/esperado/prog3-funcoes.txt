@@ -1,0 +1,62 @@
+Program
+  FuncDecl(int fat)
+    Param(int n)
+    Block
+      If
+        Bin(<=)
+          Id(n)
+          Int(1)
+        Block
+          Return
+            Int(1)
+      Return
+        Bin(*)
+          Id(n)
+          Call(fat)
+            Bin(-)
+              Id(n)
+              Int(1)
+  FuncDecl(double media)
+    Param(int a)
+    Param(int b)
+    Block
+      Return
+        Bin(/)
+          Bin(+)
+            Id(a)
+            Id(b)
+          Double(2.0)
+  ProcDecl(principal)
+    Block
+      VarDecl(int r)
+        Call(fat)
+          Int(5)
+      VarDecl(double m)
+        Call(media)
+          Id(r)
+          Un(-)
+            Int(3)
+      VarDecl(bool b)
+        Bin(||)
+          Un(!)
+            Bin(>=)
+              Id(r)
+              Int(10)
+          Bin(&&)
+            Bin(!=)
+              Id(m)
+              Double(0.5)
+            Bool(true)
+      Block
+        VarDecl(int x)
+          Int(1)
+        Assign(r)
+          Bin(+)
+            Id(r)
+            Id(x)
+      CallStmt
+        Call(escreve)
+          Str("fim")
+          Id(r)
+      CallStmt
+        Call(escreve)

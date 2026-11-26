@@ -1,0 +1,8 @@
+void principal() {
+    bool a = 1 == 1.0;
+    bool b = 'x' != 'y';
+    bool c = true == false;
+    bool d = 1 == 'a';
+    bool e = true != 0;
+    bool f = 2.5 == "2.5";
+}

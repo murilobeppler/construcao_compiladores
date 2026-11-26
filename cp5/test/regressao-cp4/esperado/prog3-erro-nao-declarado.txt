@@ -1,0 +1,4 @@
+linha 2: 'x' não declarado
+linha 3: 'z' não declarado
+linha 4: 'calcula' não declarado
+

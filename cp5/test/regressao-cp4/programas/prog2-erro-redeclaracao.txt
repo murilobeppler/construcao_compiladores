@@ -1,0 +1,8 @@
+int a = 10;
+int a = 20;
+
+void f() {
+    int x = 1;
+    int x = 2;
+}
+

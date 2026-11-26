@@ -1,0 +1,8 @@
+void principal() {
+    char c = 'a';
+    bool menor = c < 'b';
+    bool igual = c == 'a';
+    char d = c + 1;
+    int k = c;
+    bool m = c < 98;
+}

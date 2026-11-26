@@ -1,0 +1,2 @@
+linha 5: 'cinco' é função: nome sem parênteses não é valor (use 'cinco(...)')
+linha 7: 'cinco' é função, não pode receber atribuição

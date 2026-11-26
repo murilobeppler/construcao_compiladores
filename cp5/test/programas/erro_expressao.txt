@@ -1,0 +1,6 @@
+void principal() {
+    int x = 1 + true;
+    bool b = 3 && false;
+    double d = -"texto";
+    int r = 10 % 2.5;
+}

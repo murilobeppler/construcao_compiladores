@@ -1,0 +1,2 @@
+linha 11: inicialização de 'i': esperado int, veio double
+linha 12: inicialização de 'j': esperado int, veio double

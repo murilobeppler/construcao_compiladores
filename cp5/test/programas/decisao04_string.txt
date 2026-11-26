@@ -1,0 +1,11 @@
+string saudacao(string nome) {
+    return nome;
+}
+void principal() {
+    string a = "oi";
+    string b = saudacao(a);
+    escreve(b);
+    bool igual = a == b;
+    bool menor = a < b;
+    string c = a + b;
+}

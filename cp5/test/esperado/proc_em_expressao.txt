@@ -1,0 +1,2 @@
+linha 5: procedimento 'avisa' usado em expressão (não devolve valor)
+linha 6: procedimento 'escreve' usado em expressão (não devolve valor)

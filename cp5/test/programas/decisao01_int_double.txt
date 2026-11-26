@@ -1,0 +1,13 @@
+double area(double r) {
+    return 3 * r * r;
+}
+double dobro(int n) {
+    return n * 2;
+}
+void principal() {
+    double x = 5;
+    x = x + 1;
+    escreve(area(2), dobro(3), x > 1);
+    int i = x;
+    int j = 7 / 2.0;
+}

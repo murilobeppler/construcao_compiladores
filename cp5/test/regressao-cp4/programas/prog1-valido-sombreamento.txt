@@ -1,0 +1,17 @@
+int x = 1;
+int g = 100;
+
+int f(int x) {
+    int res = x;
+    {
+        int x = 10;
+        res = res + x + g;
+    }
+    return res + x;
+}
+
+void principal() {
+    int a = f(x);
+    escreve("resultado", a);
+}
+
